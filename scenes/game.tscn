@@ -1,0 +1,56 @@
+[gd_scene format=3 uid="uid://bexu5f1a8xdkv"]
+
+[ext_resource type="PackedScene" uid="uid://c0jocg4uyuuw0" path="res://scenes/clicking_obj.tscn" id="1_uwrxv"]
+[ext_resource type="Script" uid="uid://dyuyyqhjguq8k" path="res://scripts/game.gd" id="1_yqjtg"]
+[ext_resource type="PackedScene" uid="uid://bhtiu2qbwdtpb" path="res://scenes/button.tscn" id="3_lnu2h"]
+
+[node name="game" type="Node2D" unique_id=487597431]
+script = ExtResource("1_yqjtg")
+
+[node name="background" type="Polygon2D" parent="." unique_id=1916858575]
+z_index = -1
+position = Vector2(-389, -313)
+color = Color(0, 0.47058824, 0.627451, 0.44313726)
+polygon = PackedVector2Array(-633, -592, 1656, -653, 1632, 1394, -637, 1394)
+uv = PackedVector2Array(-368, -47.999996, 216, -55.999996, 264, 359.99994, -368, 351.99994)
+
+[node name="clicking obj" parent="." unique_id=53815310 instance=ExtResource("1_uwrxv")]
+position = Vector2(-204, -4)
+
+[node name="camra" type="Camera2D" parent="." unique_id=1350919655]
+position = Vector2(1, -4)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=1599994114]
+offset_left = -345.0
+offset_top = -323.0
+offset_right = -72.0
+offset_bottom = -283.0
+theme_override_font_sizes/normal_font_size = 34
+text = "hello world"
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="upgrade background" type="Polygon2D" parent="." unique_id=259557364]
+position = Vector2(647, -285)
+color = Color(0.654902, 0.3647059, 0, 0.47843137)
+polygon = PackedVector2Array(-520, -48, -520, 608, -64.000015, 608, -64, -48)
+uv = PackedVector2Array(-168, -39.999996, -168, 47.999992, -72, 47.999992, -72, -39.999996)
+
+[node name="button_click_amount" parent="." unique_id=1375680578 instance=ExtResource("3_lnu2h")]
+position = Vector2(393, -302)
+obj = 0
+
+[node name="button_echo" parent="." unique_id=1438946953 instance=ExtResource("3_lnu2h")]
+position = Vector2(392, -215)
+points_needed = 10
+
+[node name="button_echo_speed" parent="." unique_id=1130502134 instance=ExtResource("3_lnu2h")]
+position = Vector2(396, -130)
+points_needed = 15
+obj = 2
+
+[node name="button_echo_recovery" parent="." unique_id=224777754 instance=ExtResource("3_lnu2h")]
+position = Vector2(394, -46)
+points_needed = 20
+obj = 3

@@ -1,0 +1,50 @@
+[gd_scene format=3 uid="uid://bhtiu2qbwdtpb"]
+
+[ext_resource type="Script" uid="uid://dfjk1sx4vcs03" path="res://scripts/button.gd" id="1_mi6dp"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rhj8v"]
+size = Vector2(271, 64)
+
+[node name="button" type="Area2D" unique_id=1375680578]
+script = ExtResource("1_mi6dp")
+points_needed = 5
+
+[node name="Polygon2D" type="Polygon2D" parent="." unique_id=1535857649]
+color = Color(1, 0, 0, 1)
+polygon = PackedVector2Array(-120, 48, -120, -16, 152, -16, 152, 47.999992)
+uv = PackedVector2Array(-120, 47.999992, -120, -16, 72, -16, 72, 47.999992)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1183524319]
+position = Vector2(15.5, 16)
+shape = SubResource("RectangleShape2D_rhj8v")
+
+[node name="Control" type="Control" parent="." unique_id=153928132]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -40.0
+offset_top = -7.0
+offset_right = 40.0
+offset_bottom = 8.0
+mouse_filter = 1
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Control" unique_id=1254647560]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.98
+anchor_top = -0.54700005
+anchor_right = 2.3860002
+anchor_bottom = 3.6000001
+offset_left = -0.5999985
+offset_top = 0.20500088
+offset_right = 0.11999512
+offset_bottom = 0.9999962
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_font_sizes/normal_font_size = 40
+text = "echo - 0"
+fit_content = true
+
+[connection signal="input_event" from="." to="." method="_on_input_event"]
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]

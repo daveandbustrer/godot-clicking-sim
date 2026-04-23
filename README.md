@@ -17,6 +17,15 @@
     <li>Clean and minimal UI</li>
     <li>Fast and lightweight</li>
     <li>Playable in browser</li>
+    <li>Upgrades (auto-clicker, multipliers)</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Notes</h2>
+<ul>
+    <li>proggres won't save</li>
+
 </ul>
 </div>
 
@@ -25,16 +34,16 @@
 <ul>
     <li>Click the button (or screen)</li>
     <li>Each click increases your score</li>
-    <li>Try to beat your high score</li>
+    <li>upgrade and then contiue clicking</li>
 </ul>
 </div>
 
 <div class="card">
-<h2>🧩 Planned Features</h2>
+<h2>🧩 mabye new Features</h2>
 <ul>
-    <li>Upgrades (auto-clicker, multipliers)</li>
+    <li>save system</li>
+    <li>leaderboard</li>
     <li>Sound effects</li>
-    <li>Save system</li>
 </ul>
 </div>
 
@@ -45,7 +54,7 @@
 
 <div class="card">
 <h2>🙌 Credits</h2>
-<p>Made by <b>Your Name</b></p>
+<p>Made by <b>Praneel Shanmugamb></p>
 </div>
 
 <div class="card">

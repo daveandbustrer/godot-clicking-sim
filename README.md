@@ -2,49 +2,6 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Simple Clicker Game</title>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        background: #121212;
-        color: #f0f0f0;
-        margin: 0;
-        padding: 20px;
-        line-height: 1.6;
-    }
-    .container {
-        max-width: 800px;
-        margin: auto;
-    }
-    h1, h2 {
-        color: #00d1ff;
-    }
-    .card {
-        background: #1e1e1e;
-        padding: 15px;
-        border-radius: 10px;
-        margin-bottom: 15px;
-    }
-    code {
-        background: #000;
-        padding: 5px;
-        border-radius: 5px;
-        display: block;
-        overflow-x: auto;
-    }
-    .btn {
-        display: inline-block;
-        background: #00d1ff;
-        color: black;
-        padding: 10px 15px;
-        border-radius: 6px;
-        text-decoration: none;
-        font-weight: bold;
-    }
-    .btn:hover {
-        background: #00aacc;
-    }
-</style>
 </head>
 
 <body>

@@ -24,7 +24,7 @@
 <div class="card">
 <h2>Notes</h2>
 <ul>
-    <li>proggres won't save</li>
+    <li>progress won't save</li>
 
 </ul>
 </div>

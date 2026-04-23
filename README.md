@@ -37,7 +37,8 @@
     <li>upgrade and then contiue clicking</li>
 </ul>
 </div>
-
+<h2 a="https://tr-blu.itch.io/godot-clicking-sim">▶️ link for game</h2>
+</div>
 <div class="card">
 <h2>🧩 mabye new Features</h2>
 <ul>
